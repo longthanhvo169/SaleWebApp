@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sale Reports</title>
+    <script src="/webjars/jquery/dist/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="/app.js"></script>
+    <style>
+        table {
+            border:1px solid #b3adad;
+            border-collapse:collapse;
+            padding:5px;
+        }
+        table th {
+            border:1px solid #b3adad;
+            padding:5px;
+            background: #f0f0f0;
+            color: #313030;
+        }
+        table td {
+            border:1px solid #b3adad;
+            text-align:center;
+            padding:5px;
+            background: #ffffff;
+            color: #313030;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sale Reports</h1>
+
+    <form>
+        <div id="tblData"></div>
+    </form>
+
+
+</body>
+</html>

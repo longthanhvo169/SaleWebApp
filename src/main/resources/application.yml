@@ -1,0 +1,8 @@
+spring:
+  profiles.active: local
+  application:
+    name: SaleWebApp
+    version: prod.1.0.0
+
+server:
+  port: 8083
